@@ -17,7 +17,11 @@
 - Prints the first two found duplicate lines, along with their original line numbers and original form.
 
 <u>filter-tabular-data.py:</u>
-- Load a dataset of students into a DataFrame.
+- Loads a dataset of students into a DataFrame.
 - Filter DataFrame by study time, internet usage, and absences of students and save as a new dataset.
 - Print the number of students in the updated DataFrame along with their average grade.
 
+<u>generate-grouped-summary-table.py:</u>
+- Loads a dataset of students into a DataFrame.
+- Creates a new column calculated by the grades of the students. Then generates a grouped summary table from the new column with the number of students, average absences, and percentage of students with internet access
+- Save the summary table to a CSV file.
