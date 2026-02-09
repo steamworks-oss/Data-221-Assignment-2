@@ -16,3 +16,8 @@
 - Identifies the processed lines that are duplicates and then prints the number of duplicates.
 - Prints the first two found duplicate lines, along with their original line numbers and original form.
 
+<u>filter-tabular-data.py:</u>
+- Load a dataset of students into a DataFrame.
+- Filter DataFrame by study time, internet usage, and absences of students and save as a new dataset.
+- Print the number of students in the updated DataFrame along with their average grade.
+
