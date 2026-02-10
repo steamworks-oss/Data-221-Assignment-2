@@ -8,7 +8,7 @@
 <u>consecutive-words.py:</u>
 - Reads from a text file and splits it into a list of words.
 - It then takes the lowercase of each word, strips each word of punctuation at the beginning and end, and filters out words less than two alphabetic characters.
-- Create bigrams from the processed word list, and then counts the frequency of each bigram.
+- Creates bigrams from the processed word list, and then counts the frequency of each bigram.
 - Prints out the five most frequent bigrams along with their tally occurrences in descending order.
 
 <u>near-duplicate-lines.py:</u>
@@ -18,13 +18,13 @@
 
 <u>filter-tabular-data.py:</u>
 - Loads a dataset of students into a DataFrame.
-- Filter DataFrame by study time, internet usage, and absences of students and save as a new dataset.
-- Print the number of students in the updated DataFrame along with their average grade.
+- Filters DataFrame by study time, internet usage, and absences of students and save as a new dataset.
+- Prints the number of students in the updated DataFrame along with their average grade.
 
 <u>generate-grouped-summary-table.py:</u>
 - Loads a dataset of students into a DataFrame.
 - Creates a new column calculated by the grades of the students. Then generates a grouped summary table from the new column with the number of students, average absences, and percentage of students with internet access
-- Save the summary table to a CSV file.
+- Saves the summary table to a CSV file.
 
 
 <u>compare-categories.py</u>
@@ -46,3 +46,8 @@
 - Scrapes the wikipedia entry for Machine learns.
 - Converts first table with at least three data rows into a DataFrame. Fills in headers and values if empty.
 - Saves extracted table to a CSV file.
+
+<u>matching-keyword-lines.py</u>
+- Reads from a text file line by line.
+- Checks to see if given keyword is in the line, and if so it then stores the line number and line text.
+- Prints the number of lines found with the keyword alongside the first three matching lines.
