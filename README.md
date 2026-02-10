@@ -36,3 +36,8 @@
 - Scrape the wikipedia entry for Data science.
 - Extracts and prints the title of the article.
 - Extracts and prints the first paragraph of the main text with at least 50 characters.
+
+<u>scrape-webpage-header.py</u>
+- Scrape the wikipedia entry for Data science.
+- Extracts the \<h2> section headers but filters out the headings containing certain words. ("References, "External links", "See also", "Notes")
+- Removes "[edit]" substring from remaining headers and then saves them to a text file line by line.
