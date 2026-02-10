@@ -31,3 +31,8 @@
 - Loads a dataset of crime statistics into a DataFrame.
 - Creates a new "risk" column based on the violent crimes per population column. Then groups the data by the new column and calculates the average unemployment rate for each group.
 - Prints the average unemployment rate for both risk groups.
+
+<u>scrape-webpage-paragraph.py</u>
+- Scrape the wikipedia entry for Data science.
+- Extracts and prints the title of the article.
+- Extracts and prints the first paragraph of the main text with at least 50 characters.
