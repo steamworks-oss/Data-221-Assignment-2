@@ -25,3 +25,9 @@
 - Loads a dataset of students into a DataFrame.
 - Creates a new column calculated by the grades of the students. Then generates a grouped summary table from the new column with the number of students, average absences, and percentage of students with internet access
 - Save the summary table to a CSV file.
+
+
+<u>compare-categories.py</u>
+- Loads a dataset of crime statistics into a DataFrame.
+- Creates a new "risk" column based on the violent crimes per population column. Then groups the data by the new column and calculates the average unemployment rate for each group.
+- Prints the average unemployment rate for both risk groups.
